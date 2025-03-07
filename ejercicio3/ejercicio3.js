@@ -1,12 +1,12 @@
 /**
  * Dado un array de productos con información de inventario:
- * 1. Crear un nuevo array solo con productos en stock (cantidad > 0)
- * 2. Agregar una propiedad "valor_total" a cada producto que multiplique precio por cantidad
- * 3. Ordenar los productos por valor_total de mayor a menor
+ * 1. Filtrar y conservar solo los productos que están en stock (cantidad mayor a 0)
+ * 2. Añadir una nueva propiedad "valor_total" a cada producto, que multiplica el precio por la cantidad
+ * 3. Ordenar los productos por su valor_total de mayor a menor
  * 4. Devolver un objeto con:
- *    - productos_disponibles: cantidad total de productos diferentes en stock
+ *    - productos_disponibles: número total de productos diferentes que están en stock
  *    - valor_inventario: suma de todos los valores_total
- *    - categorias: array de categorías únicas (sin duplicados)
+ *    - categorias: lista de categorías sin repeticiones
  */
 
 const inventario = [
@@ -54,11 +54,4 @@ const inventario = [
   },
 ];
 
-// Implementa tu solución
-// Debería mostrar algo como:
-// {
-//   productos_disponibles: 4,
-//   valor_inventario: 7235,
-//   categorias: ["Electrónica", "Accesorios", "Componentes"]
-// }
 const resultado = {};
