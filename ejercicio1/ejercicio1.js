@@ -1,10 +1,8 @@
 /**
- * Dado un array de productos con precios en una tabla (array bidimensional), hacer lo siguiente:
- * 1. Filtrar solo los precios que sean números pares.
- * 2. Ordenar esos precios de mayor a menor.
- * 3. Convertir la tabla en un solo array (array unidimensional).
- * 4. Mostrar el resultado en la consola.
- * 5. Calcular y mostrar la suma total de los precios filtrados.
+ * Dado un array bidimensional de productos con precio, devolver el array filtrado solo con los numeros pares,
+ *  ordenarlo de mayor a menor y convertirlo en un array unidimensional ( enseñarlo por consola).
+ * Además, calcular la suma total de los precios filtrados y mostrarlo por consola.
+ *
  */
 
 const products = [
